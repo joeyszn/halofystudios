@@ -1,1 +1,1 @@
-Website and respective files belongs to Rosebel Peace. 
+The website and respective files belong to Halofy Studios TM.
