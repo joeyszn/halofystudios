@@ -7,14 +7,21 @@
 body {
     width: auto;
     height: auto;
-    display: flex;
-    padding: 11px;
-    flex-direction: column;
-    padding: 20px 16px 80px 16px;
-    gap: 70px;
-    background-image: url("bgrp.png");
+    background-image: url("image/body-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
 }
 
 .hero {
@@ -24,16 +31,218 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 70px;
-    padding: 55px 25px 20px 25px;
+    gap: 150px;
+    padding: 55px 25px 80px 25px;
+    background-image: url(image/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+/* // <uniquifier>: Use a unique and descriptive class name */
+/* // <weight>: Use a value from 100 to 900 */
+
+.museomoderno-headline {
+    font-family: "MuseoModerno", sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    color: #ffffff;
+    width: 85%;
+    line-height: 55px;
+    font-style: normal;
+    align-self: center;
+    text-align: center;
+}
+
+.hero-btn {
+    display: block;
+    width: 260px;
+    height: 65px;
+    border-radius: 50px;
+    border: 0px solid;
+    background-image: radial-gradient(circle at 2% 512%, #A2DEF6, #fff, #A2DEF6);
+    font-size: 23.2px;
+    color: #3EA6E2;
+    font-family: "MuseoModerno", sans-serif;
+    font-weight: 500;
+}
+
+.hero-banner {
+    display: block;
+    width: 100%;
+    height: 90px;
+    background-image: url(image/hero-banner-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 90px;
+    padding: 90px 40px 90px 40px;
+}
+
+.content-comp {
+    display: flex;
+    width: 100%;
+    gap: 25px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.content-comp-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.content-comp-header > h2 {
+    color: #000000;
+    font-family: "MuseoModerno", sans-serif;
+    font-weight: 500;
+    font-size: 18.9px;
+    text-align: center;
+    z-index: 99;
+    background-color: #e9f7ff;
+    padding: 10px 45px 10px 45px;
+}
+
+.content-comp-line {
+    width: 100%;
+    height: 7px;
+    background-color: #3EA6E2;
+    border-right: 6px solid #8BD5F4;
+    border-left: 6px solid #8BD5F4;
+    position: relative;
+    top: -27px;
+}
+
+.content-comp > p {
+    color: #000000;
+    font-family: "MuseoModerno", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.image-frame-1 {
+   background-image: url();
+   display: block;
+   width: 313px;
+   height: 328px;
+   border: 4px solid #3EA6E2;
+}
+
+.image-frame-2 {
+    background-image: url();
+    display: block;
+    width: 313px;
+    height: 328px;
+    border: 4px solid #3EA6E2;
+}
+
+.footer-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 274px;
+    padding: 60px 24px 50px 24px;
+    background-image: url(image/footer-banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer-banner > h3 {
+    color: #ffffff;
+    font-family: "MuseoModerno", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    line-height: 32px;
+    font-size: 19px;
+    width: 85%;
+}
+
+.signature-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.signature {
+    display: block;
+    width: 100px;
+    height: auto;
+    filter: 
+}
+
+.signature2 {
+    display: block;
+    width: 100px;
+    height: auto;
+    transform: rotate(30deg);
 }
 
 
+footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    gap: 45px;
+    border-top: 5px solid #2689DD;
+    padding: 55px 24px 25px 24px;
+}
+
+.social-links-con {
+    display: flex;
+    flex-direction: row;
+    gap: 38px;
+    height: 35px;
+}
+
+.social-icon {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    height: 35px;
+}
+
+footer hr {
+    background-color: #d6d6d6;
+    border: 1px solid #d6d6d6;
+    height: 0px;
+    display: block;
+    width: 100%;
+}
+
+footer p {
+    color: #878787;
+    font-family: "MuseoModerno", sans-serif;
+    font-weight: 200;
+    text-align: center;
+    font-size: 12px;
+}
 
 /* For mobile phones: */
 
-@media only screen and (max-width: 585px) {
+/* @media only screen and (max-width: 585px) {
     .timer-container {
        
     
-  }
+  } */

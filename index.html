@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
@@ -24,10 +27,121 @@
     <title>Halofy Studios | Giving value to art</title>
 </head>
 <body>
-    <div class="hero"></div>
-    
-    <div class="section4">
-        <h6>Halofy Studios &copy; 2024</h6>
+    <div class="body-container">
+        <div class="hero-container">
+            <div class="hero">
+                <div class="logo-container">
+                    <img src="logo-and-tagline-white.svg" alt="logo-and-tagline">
+                </div>
+                <h1 class="museomoderno-headline">A community of special passion-driven artists.</h1>
+
+                <button onclick="scrollToSection()" class="hero-btn" value="Vision & Mission">Vision & Mission</button>
+            </div>
+            <div class="hero-banner"></div>
+        </div>
+        <div class="main-content">
+            <!-- Our Value Summary -->
+            <div class="content-comp">
+                <div class="content-comp-header">
+                    <h2>Our Value Summary</h2>
+                    <div class="content-comp-line"></div>
+                </div>
+                <p>Halofy Studios is dedicated to creating value in the art world by providing a platform for diverse creatives to showcase their work, collaborate, and reach new audiences. Our commitment is to elevate artists' careers, providing them with the resources, exposure, and support they need to succeed in a competitive industry.
+                </p>
+            </div>
+
+            <!-- Our Value Proposition -->
+            <div class="content-comp">
+                <div class="content-comp-header">
+                    <h2>Our Value Proposition</h2>
+                    <div class="content-comp-line"></div>
+                </div>
+                <p>Halofy Studios empowers artists by offering a comprehensive platform that integrates creative freedom, financial support, and market access. We are committed to bridging the gap between artists and the market, ensuring that artists can focus on their craft while we handle the business aspects of their careers. <br>
+                    Our proposition is simple: We help artists do what they love while making a full living from it.
+                </p>
+            </div>
+
+            <!-- Our Vision -->
+            <div class="content-comp" id="ourvision">
+                <div class="content-comp-header">
+                    <h2>Our Vision</h2>
+                    <div class="content-comp-line"></div>
+                </div>
+                <p>We envision a world where art is universally accessible, where artists are empowered to create without limits, and where Halofy Studios is synonymous with innovation and excellence in the art world. Our goal is to be the go-to platform for artists and art lovers globally, fostering a community that values and supports creative expression.
+                </p>
+            </div>
+
+            <!-- Our Mission -->
+            <div class="content-comp">
+                <div class="content-comp-header">
+                    <h2>Our Mission</h2>
+                    <div class="content-comp-line"></div>
+                </div>
+                <p>Our mission is to be the leading platform for artists across various disciplines, providing them with the tools, exposure, and support they need to thrive. We aim to create a sustainable ecosystem where creativity flourishes and where art is valued both as a cultural asset and a viable career path.
+                </p>
+            </div>
+
+            <!-- Our Story -->
+            <div class="content-comp">
+                <div class="content-comp-header">
+                    <h2>Our Story</h2>
+                    <div class="content-comp-line"></div>
+                </div>
+                <p>Halofy Studios was born out of a passion for art and a recognition of the challenges faced by artists in today’s world. Founded by a group of art enthusiasts and professionals, Halofy Studios is more than just a platform—it’s a movement to redefine how art is created, shared, and valued. From its inception, Halofy Studios has been dedicated to supporting artists in every possible way, from providing exposure to ensuring fair compensation for their work. As we continue to grow, our commitment to the art community remains unwavering.
+                </p>
+            </div>
+
+            <!-- Our Brand Statement -->
+            <div class="content-comp">
+                <div class="content-comp-header">
+                    <h2>Our Brand Statement</h2>
+                    <div class="content-comp-line"></div>
+                </div>
+                <p>Halofy Studios stands for the belief that art is not just a commodity or a side hustle but a vital part of our cultural and social fabric. We are dedicated to creating a platform where artists can thrive, where their work is valued, and where they can make a meaningful impact on the world. We invite you to join us in this journey of creativity, innovation, and artistic excellence.
+                </p>
+            </div>
+
+             <!-- Our Featured Artists -->
+             <!-- <div class="content-comp">
+                <div class="content-comp-header">
+                    <h2>Our Featured Artists</h2>
+                    <div class="content-comp-line"></div>
+                </div>
+               <div class="image-frame-1"></div>
+               <div class="image-frame-2"></div>
+            </div> -->
+        </div>
+
+        <div class="footer-banner">
+            <h3>Thank you for viewing our organization summary. 
+                Together, we'll create something truly extraordinary.
+            </h3>
+        </div>
     </div>
+    
+
+    <footer>
+        <div class="logo-container">
+            <img src="logo-and-tagline-blue.svg" alt="logo-and-tagline">
+        </div>
+        <div class="social-links-con">
+            <a href="https://www.linkedin.com/company/halofystudios/">
+                <img class="social-icon" src="bi_linkedin.svg" alt="LinkedIn logo">
+            </a>
+            <a href="https://x.com/halofystudios">
+                <img class="social-icon" src="flowbite_x-solid.svg" alt="X logo">
+            </a>
+            <a href="https://instagram.com/halofystudios">
+                <img class="social-icon" src="ri_instagram-fill.png" alt="Instagram logo">
+            </a>
+        </div>
+        <hr>
+        <p>Copyright ©2024 Halofystudios.com</p>
+    </footer>
+    <script>
+        function scrollToSection() {
+            document.getElementById("ourvision").scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
 </body>
 </html>
